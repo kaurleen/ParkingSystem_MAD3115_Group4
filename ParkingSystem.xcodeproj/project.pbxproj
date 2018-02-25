@@ -14,6 +14,7 @@
 		9F6C53452043616E00CE0554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C53432043616E00CE0554 /* LaunchScreen.storyboard */; };
 		9F6C53502043616E00CE0554 /* ParkingSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C534F2043616E00CE0554 /* ParkingSystemTests.swift */; };
 		9F6C535B2043616E00CE0554 /* ParkingSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C535A2043616E00CE0554 /* ParkingSystemUITests.swift */; };
+		9F6C536A20436C2000CE0554 /* parked-car.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C536920436C2000CE0554 /* parked-car.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F6C53562043616E00CE0554 /* ParkingSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6C535A2043616E00CE0554 /* ParkingSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSystemUITests.swift; sourceTree = "<group>"; };
 		9F6C535C2043616E00CE0554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6C536920436C2000CE0554 /* parked-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parked-car.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		9F6C53392043616E00CE0554 /* ParkingSystem */ = {
 			isa = PBXGroup;
 			children = (
+				9F6C536820436BF400CE0554 /* Images */,
 				9F6C533A2043616E00CE0554 /* AppDelegate.swift */,
 				9F6C533C2043616E00CE0554 /* ViewController.swift */,
 				9F6C533E2043616E00CE0554 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				9F6C535C2043616E00CE0554 /* Info.plist */,
 			);
 			path = ParkingSystemUITests;
+			sourceTree = "<group>";
+		};
+		9F6C536820436BF400CE0554 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C536920436C2000CE0554 /* parked-car.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 				9F6C53452043616E00CE0554 /* LaunchScreen.storyboard in Resources */,
 				9F6C53422043616E00CE0554 /* Assets.xcassets in Resources */,
 				9F6C53402043616E00CE0554 /* Main.storyboard in Resources */,
+				9F6C536A20436C2000CE0554 /* parked-car.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
