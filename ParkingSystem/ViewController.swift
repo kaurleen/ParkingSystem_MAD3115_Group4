@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func loginActivity(_ sender: UIButton) {
+        // Login Verification and Intent to Main Screen
+        print("Login Button Pressed")
+    }
+    @IBAction func registerScreenIntent(_ sender: UIButton) {
+        // Registration Screen Intent Defined Here
+        print("Register Button Pressed")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
